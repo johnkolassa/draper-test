@@ -1,0 +1,3 @@
+Error Message
+ERROR   2020-08-21 12:47:55,762 [main] myPackage.LoggerTest  - Error Message
+ERROR   2020-08-21 12:49:33,489 [main] myPackage.LoggerTest  - Error Message
