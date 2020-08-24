@@ -59,11 +59,6 @@ public class Admin extends User{
 	public String readToLine() {
 		StringBuilder s = new StringBuilder();
 		s.append(id+" "+firstName+" "+lastName);
-		
-		for (Account acc : aList) {
-			s.append(" " + acc.getID());
-		}
-		
 		return s.toString();
 
 	}
