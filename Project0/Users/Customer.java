@@ -55,7 +55,7 @@ public class Customer extends User {
 	// Transfer
 	public void transfer(Account a, Account b, int i) {
 		a.withdraw(i);
-		b.withdraw(i);
+		b.deposit(i);
 	}
 	
 	// Get an account from an ID
