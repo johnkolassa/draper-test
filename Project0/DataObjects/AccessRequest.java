@@ -1,6 +1,6 @@
 package DataObjects;
 
-public class AccessRequest extends Transaction {
+public class AccessRequest extends Request {
 
 	@Override
 	public String readToLine() {
